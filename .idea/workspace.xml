@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40025294-37fc-4270-8ccb-6ee11da780a3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/MoodAnalyserEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/moodanalyser/MoodAnalyserException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/moodanalyser/MoodAnalyser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/moodanalyser/MoodAnalyser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bridgelabz/moodanalyser/MoodTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bridgelabz/moodanalyser/MoodTester.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
