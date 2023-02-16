@@ -22,5 +22,10 @@ public class MoodTester {
         assertEquals("Sad" , obj.checkMood("Sad"));
         assertEquals("Happy" , obj.checkMood("Happy"));
     }
-    }
+    @Test
+    public void testEmptyMood() {
+        MoodAnalyser MoodAnalyzer;
+        System.out.println(MoodAnalyser.invalidMoodAnalyser(String.valueOf( MoodAnalyserEnum.invalidMood)));
+        System.out.println(MoodAnalyser.invalidMoodAnalyser(String.valueOf(MoodAnalyserEnum.empty)));
+    }}
 
