@@ -5,10 +5,10 @@ import org.junit.jupiter.api.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class MoodTester {
-    MoodAnalyser obj = new MoodAnalyser();
-    MoodAnalyser a = new MoodAnalyser("I am in Happy mood");
+    MoodAnalyser obj = new  MoodAnalyser();
+    MoodAnalyser a = new  MoodAnalyser("I am in Happy mood");
     MoodAnalyser b = new MoodAnalyser("I am in Sad mood");
-    MoodAnalyser c = new MoodAnalyser("I am in Any mood");
+    MoodAnalyser c = new  MoodAnalyser("I am in Any mood");
 
     @Test
     public void testMood() {
@@ -23,9 +23,7 @@ public class MoodTester {
         assertEquals("Happy" , obj.checkMood("Happy"));
     }
     @Test
-    public void testEmptyMood() {
-        MoodAnalyser MoodAnalyzer;
-        System.out.println(MoodAnalyser.invalidMoodAnalyser(String.valueOf( MoodAnalyserEnum.invalidMood)));
-        System.out.println(MoodAnalyser.invalidMoodAnalyser(String.valueOf(MoodAnalyserEnum.empty)));
+    public void testNullMood() throws  MoodAnalyserException {
+        System.out.println( MoodAnalyser.invalidMoodAnalyser(null));
     }}
 

@@ -22,19 +22,8 @@ public class MoodAnalyser {
         else
             return "Sad";
     }
-    public static <MoodAnalyzerException> String invalidMoodAnalyser(String message) {
+    public static String invalidMoodAnalyser(String message) throws MoodAnalyserException {
         if (message == null)
-        {
-            try
-            {
-                throw new MoodAnalyserException();
-            }
-            catch ( MoodAnalyserException exception)
-            {
-                return "Happy";
-            }
-        }
-        else
         {
             try
             {
@@ -42,6 +31,8 @@ public class MoodAnalyser {
             }
             catch (MoodAnalyserException exception)
             {
-                return "Invalid Mood";
+                return "Happy";
             }
-        }}}
+        }
+        return "Sad";
+    }}
